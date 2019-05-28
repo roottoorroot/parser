@@ -13,6 +13,7 @@ import java.util.Map;
 public class Application {
 
     public static void main(String[] args) throws IOException, Exception {
+
         Parser parser = new ParserTxt();
         ConvertToJson convert = new ConvertToJson();
         Send send = new Send();

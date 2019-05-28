@@ -23,6 +23,7 @@ public class ParserTxt implements Parser {
         ArrayList<String> lines = new ArrayList<String>();
         String line = " ";
         List<Map<String, String>> listMap = new ArrayList<Map<String, String>>();
+        List<Map<String, String>> errorMap = new ArrayList<Map<String, String>>();
 
         try {
             BufferedReader reader = new BufferedReader( new FileReader("test/agbank_report.txt"));
